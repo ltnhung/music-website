@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/discover.css">
+  <link rel="stylesheet" href="css/play-music.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="navbar-header">
+      <div class="container">
+        <nav class="navbar-collapse">
+          <div class="navbar-left">
+            <a href="index.html"><img src="images/LOGO.png" alt="" class="logo"></a>
+          </div>
+          <div class="navbar-center">
+            <div class="navbar">
+              <a href="discover.html">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn">Top 100
+                </button>
+                <div class="dropdown-content">
+                  <div class="row">
+                    <div class="column-dropdown">
+                      <a href="#">U.S. UK</a>
+                      <a href="#">Asia</a>
+                      <a href="#">Instrumental Music</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="artist.html">Artists</a>
+              <a href="theme.html">Theme</a>
+              <div class="dropdown">
+                <button class="dropbtn">Video
+                </button>
+                <div class="dropdown-content">
+                  <div class="row">
+                    <div class="column-dropdown">
+                      <h3>Asia</h3>
+                      <a href="#">Korean music</a>
+                      <a href="#">Chinese music</a>
+                      <a href="#">Japanese music</a>
+                      <a href="#">Thai music</a>
+                      <a href="#">The Best Of The 2019</a>
+                    </div>
+                    <div class="column-dropdown">
+                      <h3>U.S. UK</h3>
+                      <a href="#">Pop</a>
+                      <a href="#">Rock</a>
+                      <a href="#">Dance</a>
+                      <a href="#">Latin</a>
+                      <a href="#">The Best Of The 2018</a>
+                    </div>
+                    <div class="column-dropdown">
+                      <h3>Other</h3>
+                      <a href="#">Children's Music</a>
+                      <a href="#">Film Music</a>
+                      <a href="#">Acoustic</a>    
+                      <a href="#">The Best Of The 2017</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="playlist.html">PlayList</a>
+            </div>
+
+            <form class="input-group">
+              <span class="input-group-prepend">
+                <button type="button" class="button-seach">
+                  <svg class="feather feather-search" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                </button>
+              </span>
+              <span class="twitter-typeahead">
+                <input type="text" class="form-input-search" placeholder="Search..." autocomplete="off"
+                  spellcheck="false" dir="auto">
+              </span>
+            </form>
+          </div>
+          <div class="navbar-right">
+            <ul class="box-user">
+              <li><a href="Sign-up.html">Sign In</a></li>
+              <li><a href="login.html">Login In</a></li>
+            </ul>
+            <img src="https://avatar.talk.zdn.vn/default.jpg" alt="Zing MP3" class="icon-user">
+            <i class="fas fa-bars btn-action"></i>
+          </div>
+          <div class="box-action">
+            <div class="navbar">
+              <div class="dropdown">
+                <button class="dropbtn">Home
+                </button>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Top 100
+                </button>
+                <div class="dropdown-content">
+                  <div class="row">
+                    <div class="column-dropdown">
+                      <a href="#">U.S. UK</a>
+                      <a href="#">Asia</a>
+                      <a href="#">Instrumental Music</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Artists
+                </button>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Theme
+                </button>
+                <div class="dropdown-content">
+                  <div class="row">
+                    <div class="column-dropdown">
+                      <a href="#">Cover & Masup</a>
+                      <a href="#">Gym music</a>
+                      <a href="#">Dance Music</a>
+                      <a href="#">The Best Of The 2019</a>
+                    </div>
+                    <div class="column-dropdown">
+                      <a href="#">Coffe Tine</a>
+                      <a href="#">Mysterious Music</a>
+                      <a href="#">Children's Music</a>
+                      <a href="#">The Best Of The 2018</a>
+                    </div>
+                    <div class="column-dropdown">
+                      <a href="#">Revolution music</a>
+                      <a href="#">Rock Music</a>
+                      <a href="#">Film Music</a>
+                      <a href="#">Acoustic</a>    
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Video
+                </button>
+                <div class="dropdown-content">
+                  <div class="row">
+                    <div class="column-dropdown">
+                      <h3>Asia</h3>
+                      <a href="#">Korean music</a>
+                      <a href="#">Chinese music</a>
+                      <a href="#">Japanese music</a>
+                      <a href="#">Thai music</a>
+                    </div>
+                    <div class="column-dropdown">
+                      <h3>U.S. UK</h3>
+                      <a href="#">Pop</a>
+                      <a href="#">Rock</a>
+                      <a href="#">Dance</a>
+                      <a href="#">Latin</a>
+                    </div>
+                    <div class="column-dropdown">
+                      <h3>Other</h3>
+                      <a href="#">Children's Music</a>
+                      <a href="#">Film Music</a>
+                      <a href="#">Acoustic</a>    
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Albums
+                </button>
+                <div class="dropdown-content">
+                  <div class="row">
+                    <div class="column-dropdown">
+                      <a href="#">Recommend Music</a>
+                      <a href="#">Asia</a>
+                      <a href="#">U.S. UK</a>
+                      <a href="#">Symphony</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <form class="input-group">
+              <span class="input-group-prepend">
+                <button type="button" class="button-seach">
+                  <svg class="feather feather-search" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                </button>
+              </span>
+              <span class="twitter-typeahead">
+                <input type="text" class="form-input-search" placeholder="Search..." autocomplete="off"
+                  spellcheck="false" dir="auto">
+              </span>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="main-page">
+        <div class="padding-page">
+
+
+          <div class="box-background slidess">
+            <div class="background background1"></div>
+          </div>
+          <div class="box-background slidess">
+            <div class="background background2"></div>
+          </div>
+          <div class="box-background slidess">
+            <div class="background background3"></div>
+          </div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <h2>Amazing songs</h2>
+              <div class="box-text-slides">
+                <p>Tortor tristique in ut non mauris quam nibh mi at diam mauris
+                  iaculis lobortis mauris pretium odio elementum felis nunc</p>
+              </div>
+              <a href="" class="btn-explore" tabindex="0">Explore</a>
+            </div>
+            <div class="mySlides fade">
+              <h2>Bepop top charts</h2>
+              <div class="box-text-slides">
+                <p>Tellus urna eu tincidunt massa venenatis aenean arcu turpis rhoncus
+                  porttitor sed molestie ac arcu integer blandit diam neque diam</p>
+              </div>
+              <a href="" class="btn-explore" tabindex="0">Explore</a>
+            </div>
+
+            <div class="mySlides fade">
+              <h2>Find popular artist</h2>
+              <div class="box-text-slides">
+                <p>TTellus urna eu tincidunt massa venenatis aenean arcu turpis rhoncus
+                  porttitor sed molestie ac arcu integer blandit diam neque diam</p>
+              </div>
+              <a href="" class="btn-explore" tabindex="0">Explore</a>
+            </div>
+
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+          </div>
+          <div style="text-align:center;position: relative;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+
+          <div class="main-play-music">
+            <div class="main-left">
+              <div class="name-music">Chuyện Tình Trên Phố - An Nhiên</div>
+              <div class="box-play-music">
+                <div class="box-contain-play">
+                  <div class="box-img-music">
+                    <img src="images/play-music.jpg" alt="">
+                  </div>
+                  <div class="play-name-music">
+                    <div class="box-img-small">
+                      <img src="images/play-music.jpg" alt="">
+                    </div>
+                    <div class="box-name-artists">
+                      <h3>An Nhiên</h3>
+                    </div>
+                    <div class="box-lyrics-playing">
+                      <h4>(No karaoke yet)</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="bar-audio">
+                  <audio controls>
+                    <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Swing_Jazz_Drum.mp3"
+                      type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+              <div class="box-lyrics">
+                <div class="box-lyrics-padding">
+                  <div class="name-lyrics">
+                    <h2>Lyrics : Chuyện Tình Trên Phố</h2>
+                    <p>Musician: Nguyễn Hải Minh Cơ</p>
+                    <p>Posted by: shortcuto</p>
+                  </div>
+                  <p id="divLyric" class="pd_lyric" style="height:auto;">Song: Em Là Của Anh - ST Sơn Thạch 365
+                    <br>
+                    <br>Có thấy bóng dáng ai nơi đây
+                    <br>Cho đam mê trong anh lại đầy
+                    <br>Những yêu thương cứ dõi bên tai
+                    <br>Là ánh mắt ai làm ai anh say
+                    <br>Khẽ bước đến để nói em nghe
+                    <br>Rằng khi hai ta gần kề
+                    <br>Sẽ những tiếng đắm đuối gọi tên
+                    <br>Và hát lên tặng em lời trìu mến
+                    <br>
+                    <br>Cho đôi chân ta chung nhịp
+                    <br>Cho những ánh nhìn mời gọi xuyến xao
+                    <br>Đừng cố ôm mang hết những gì
+                    <br>Anh vẫn kiếm tìm đẹp tựa chiêm bao
+                    <br>Sâu trong anh những lúc này
+                    <br>Luôn muốn trỗi dậy ngày một lớn thêm
+                    <br>Không gian kia như đứng lại
+                    <br>Chỉ còn hai ta với nỗi khát khao gọi tên
+                    <br>
+                    <br>[Chorus] :
+                    <br>Để anh được thấy trong em là anh
+                    <br>Thời gian ngừng quay
+                    <br>Cho chiếc hôn nồng nàn
+                    <br>Để anh được thấy những đắm say đang trào dâng
+                    <br>Và màn đêm xuống nắm tay nhau lại thật gần
+                    <br>Vì em thuộc về anh.a a anh
+                    <br>Hãy nói em là của anh.a a anh
+                    <br>
+                    <br>Đôi môi em như khẽ gọi
+                    <br>Mời con tim anh ghé chơi
+                    <br>Sâu trong anh đang rối bời
+                    <br>Phải chăng đã yêu em rồi
+                    <br>Tưởng như bên nhau sánh đôi
+                    <br>Vòng tay ôm mãi chẳng rời
+                    <br>Thì thầm bên tai
+                    <br>Mong thời gian khẽ trôi</p>
+                  <a id="seeMoreLyric" class="btn_view_more">Show all Lyrics<span class="down"></span></a>
+                  <a id="hideMoreLyric" class="btn_view_hide hide">Hiden Lyrics<span class="up"></span></a>
+                </div>
+              </div>
+              <div class="heading-topweek">
+                <div>
+                  <div class="txt-weekly">PlayList</div>
+                  <h3 class="txt-toptracks">Album</h3>
+                  <div class="bar-weekly">
+
+                    <div class="box-weekly">
+                      <div class="box-img-weekly">
+                        <img src="images/music7.jpg" alt="" class="img-weekly">
+                      </div>
+                      <div class="box-information-weekly">
+                        <h3>Solo Dance</h3>
+                        <p>Martins Jensen</p>
+                      </div>
+                      <button class="btn-play" tabindex="0">
+                      </button>
+                    </div>
+
+                    <div class="box-weekly">
+                      <div class="box-img-weekly">
+                        <img src="images/music10.jpg" alt="" class="img-weekly">
+                      </div>
+                      <div class="box-information-weekly">
+                        <h3>Without You</h3>
+                        <p>Phan Duy Anh</p>
+                      </div>
+                      <button class="btn-play" tabindex="0">
+                      </button>
+                    </div>
+
+                    <div class="box-weekly">
+                      <div class="box-img-weekly">
+                        <img src="images/music3.jpeg" alt="" class="img-weekly">
+                      </div>
+                      <div class="box-information-weekly">
+                        <h3>Vì Anh Thương Em</h3>
+                        <p>Phan Duy Anh</p>
+                      </div>
+                      <button class="btn-play" tabindex="0">
+                      </button>
+                    </div>
+
+                    <div class="box-weekly">
+                      <div class="box-img-weekly">
+                        <img src="images/music4.jpeg" alt="" class="img-weekly">
+                      </div>
+                      <div class="box-information-weekly">
+                        <h3>Hết Duyên</h3>
+                        <p>Subin</p>
+                      </div>
+                      <button class="btn-play" tabindex="0">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="heading-topweek">
+                <div>
+                  <div class="txt-weekly">MV</div>
+                  <h3 class="txt-toptracks">Video</h3>
+                  <div class="bar-weekly">
+
+                    <div class="box-weekly box-album">
+                      <div class="box-img-weekly">
+                        <img src="images/video1.jpg" alt="" class="img-weekly">
+                      </div>
+                      <div class="box-information-weekly">
+                        <h3>Sing Me To Sleep</h3>
+                        <p>Alan Walker</p>
+                      </div>
+                      <button class="btn-play btn-play-video" tabindex="0">
+                      </button>
+                    </div>
+
+                    <div class="box-weekly box-album">
+                      <div class="box-img-weekly">
+                        <img src="images/video2.jpg" alt="" class="img-weekly">
+                      </div>
+                      <div class="box-information-weekly">
+                        <h3>Faded</h3>
+                        <p>Alan Walker</p>
+                      </div>
+                      <button class="btn-play btn-play-video" tabindex="0">
+                      </button>
+                    </div>
+
+                    <div class="box-weekly box-album">
+                      <div class="box-img-weekly">
+                        <img src="images/video3.jpg" alt="" class="img-weekly">
+                      </div>
+                      <div class="box-information-weekly">
+                        <h3>Closer</h3>
+                        <p>The Chainsmokers</p>
+                      </div>
+                      <button class="btn-play btn-play-video" tabindex="0">
+                      </button>
+                    </div>
+
+                    <div class="box-weekly box-album">
+                      <div class="box-img-weekly">
+                        <img src="images/video5.jpg" alt="" class="img-weekly">
+                      </div>
+                      <div class="box-information-weekly">
+                        <h3>Blank Space</h3>
+                        <p>Taylor Swift</p>
+                      </div>
+                      <button class="btn-play btn-play-video" tabindex="0">
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row-left">
+                <div class="heading">
+                  <div>More</div>
+                  <h3>Songs</h3>
+                </div>
+                <div class="list-row">
+
+                  <div class="list-col">
+                    <div class="count-list">
+                      <span>1</span>
+                    </div>
+                    <div class="box-img-list">
+                      <img src="images/music13.jpg" alt="" class="img-list">
+                      <button class="btn-play-list" tabindex="0"></button>
+                    </div>
+                    <div class="box-name-list">
+                      <span>See you again</span>
+                      <div>Wiz Khalifa, ft. Charlie Puth</div>
+                    </div>
+                    <div class="box-time-list">
+                      <span>3.40</span>
+                    </div>
+                    <div class="box-action-list">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart active-primary">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                      </svg>
+                      <svg class="icon-header" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="1"></circle>
+                        <circle cx="19" cy="12" r="1"></circle>
+                        <circle cx="5" cy="12" r="1"></circle>
+                      </svg>
+                    </div>
+                  </div>
+
+
+                  <div class="list-col">
+                    <div class="count-list">
+                      <span>2</span>
+                    </div>
+                    <div class="box-img-list">
+                      <img src="images/music14.jpg" alt="" class="img-list">
+                      <button class="btn-play-list" tabindex="0"></button>
+                    </div>
+                    <div class="box-name-list">
+                      <span>Waiting For Love</span>
+                      <div>Wiz Khalifa, ft. Charlie Puth</div>
+                    </div>
+                    <div class="box-time-list">
+                      <span>6.10</span>
+                    </div>
+                    <div class="box-action-list">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart active-primary">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                      </svg>
+                      <svg class="icon-header" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="1"></circle>
+                        <circle cx="19" cy="12" r="1"></circle>
+                        <circle cx="5" cy="12" r="1"></circle>
+                      </svg>
+                    </div>
+                  </div>
+
+
+                  <div class="list-col">
+
+                    <div class="count-list">
+                      <span>3</span>
+                    </div>
+                    <div class="box-img-list">
+                      <img src="images/music15.jpg" alt="" class="img-list">
+                      <button class="btn-play-list" tabindex="0"></button>
+                    </div>
+                    <div class="box-name-list">
+                      <span>Blank Space</span>
+                      <div>Wiz Khalifa, ft. Charlie Puth</div>
+                    </div>
+                    <div class="box-time-list">
+                      <span>5.30</span>
+                    </div>
+                    <div class="box-action-list">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart active-primary">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                      </svg>
+                      <svg class="icon-header" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="1"></circle>
+                        <circle cx="19" cy="12" r="1"></circle>
+                        <circle cx="5" cy="12" r="1"></circle>
+                      </svg>
+                    </div>
+
+                  </div>
+
+
+                  <div class="list-col">
+
+                    <div class="count-list">
+                      <span>4</span>
+                    </div>
+                    <div class="box-img-list">
+                      <img src="images/music7.jpg" alt="" class="img-list">
+                      <button class="btn-play-list" tabindex="0"></button>
+                    </div>
+                    <div class="box-name-list">
+                      <span>Solo Dance</span>
+                      <div>Wiz Khalifa, ft. Charlie Puth</div>
+                    </div>
+                    <div class="box-time-list">
+                      <span>7.40</span>
+                    </div>
+                    <div class="box-action-list">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart active-primary">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                      </svg>
+                      <svg class="icon-header" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="1"></circle>
+                        <circle cx="19" cy="12" r="1"></circle>
+                        <circle cx="5" cy="12" r="1"></circle>
+                      </svg>
+                    </div>
+
+                  </div>
+
+                  <div class="list-col">
+
+                    <div class="count-list">
+                      <span>5</span>
+                    </div>
+                    <div class="box-img-list">
+                      <img src="images/music10.jpg" alt="" class="img-list">
+                      <button class="btn-play-list" tabindex="0"></button>
+                    </div>
+                    <div class="box-name-list">
+                      <span>Without you</span>
+                      <div>Wiz Khalifa, ft. Charlie Puth</div>
+                    </div>
+                    <div class="box-time-list">
+                      <span>6.40</span>
+                    </div>
+                    <div class="box-action-list">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart active-primary">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                      </svg>
+                      <svg class="icon-header" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="1"></circle>
+                        <circle cx="19" cy="12" r="1"></circle>
+                        <circle cx="5" cy="12" r="1"></circle>
+                      </svg>
+                    </div>
+
+                  </div>
+
+
+                </div>
+          </div>
+            </div>
+            <div class="main-right">
+              <div class="listen-next-box">
+                <div class="heading-right">
+                  <div class="txt-listen-next">Listen Next</div>
+                  <div class="box_title_genre">
+                    <label class="switch">
+                    <input type="checkbox" checked="checked" id="chbxAutoplay">
+                    <span class="slider round"></span>
+                    </label>
+                  </div>
+                </div>
+                <div id="hidden-listen" class="listen-next-hidden">
+                  <div class="col-music-next">
+                    <img src="images/music14.jpg" alt="" class="img-music-next">
+                    <div class="name-music-next">
+                      <div>Waiting For Love</div>
+                      <span>Avicii</span>
+                    </div>
+                    <button class="btn-play btn-play-next" tabindex="0">
+                    </button>
+                  </div>
+                  <div class="col-music-next">
+                    <img src="images/music13.jpg" alt="" class="img-music-next">
+                    <div class="name-music-next">
+                      <div>See You Again</div>
+                      <span>Wiz Khalifa</span>
+                    </div>
+                    <button class="btn-play btn-play-next" tabindex="0">
+                    </button>
+                  </div>
+                  <div class="col-music-next">
+                    <img src="images/music12.jpg" alt="" class="img-music-next">
+                    <div class="name-music-next">
+                      <div>Natural</div>
+                      <span>Imagine Dragons</span>
+                    </div>
+                    <button class="btn-play btn-play-next" tabindex="0">
+                    </button>
+                  </div>
+                  <div class="col-music-next">
+                    <img src="images/music9.jpg" alt="" class="img-music-next">
+                    <div class="name-music-next">
+                      <div>In My Mind</div>
+                      <span>Gigi D’Agostino</span>
+                    </div>
+                    <button class="btn-play btn-play-next" tabindex="0">
+                    </button> 
+                  </div>
+                  <div class="col-music-next">
+                    <img src="images/m.jpg" alt="" class="img-music-next">
+                    <div class="name-music-next">
+                      <div>High Hopes</div>
+                      <span>Panic! At The Disco</span>
+                    </div>
+                    <button class="btn-play btn-play-next" tabindex="0">
+                    </button> 
+                  </div>
+                  <div class="col-music-next">
+                    <img src="images/music11.jpg" alt="" class="img-music-next">
+                    <div class="name-music-next">
+                      <div>Taki Taki</div>
+                      <span>DJ Snake</span>
+                    </div>
+                    <button class="btn-play btn-play-next" tabindex="0">
+                    </button> 
+                  </div>
+                  <div class="col-music-next">
+                    <img src="images/music3.jpeg" alt="" class="img-music-next">
+                    <div class="name-music-next">
+                      <div>Vì Anh Thương Em</div>
+                      <span>Phan Duy Anh</span>
+                    </div>
+                    <button class="btn-play btn-play-next" tabindex="0">
+                    </button> 
+                  </div>
+                </div>
+              </div>
+              <p class="btn_more_item btn-listen">
+                <a id="showListen" href="javascript:;" class="btn_viewall showListen">See More</a>
+                <a id="hideListen" href="javascript:;" class="btn_viewall hideListen">Compact</a>
+              </p>
+
+              <div class="box-top-100">
+                <div class="heading-right-top100">
+                  <span>Top 100</span>
+                </div>
+                <div class="col-music-next margin-top">
+                  <img src="images/top100-au-my.jpeg" alt="" class="img-music-top100">
+                  <div class="name-music-next">
+                    <div>Top 100 Best European and American Pop</div>
+                  </div>
+                  <button class="btn-play btn-play-top100" tabindex="0">
+                  </button>
+                </div>
+                <div class="col-music-next">
+                  <img src="images/top100-audiophile.jpg" alt="" class="img-music-top100">
+                  <div class="name-music-next">
+                    <div>Top 100 Best Audiophile Music</div>
+                  </div>
+                  <button class="btn-play btn-play-top100" tabindex="0">
+                  </button>
+                </div>
+                <div class="col-music-next">
+                  <img src="images/top100-phim.jpeg" alt="" class="img-music-top100">
+                  <div class="name-music-next">
+                    <div>Top 100 Music Best Film</div>
+                  </div>
+                  <button class="btn-play btn-play-top100" tabindex="0">
+                  </button>
+                </div>
+                <div class="col-music-next">
+                  <img src="images/top100-tre-em.jpeg" alt="" class="img-music-top100">
+                  <div class="name-music-next">
+                    <div>Top 100 Best Children Music</div>
+                  </div>
+                  <button class="btn-play btn-play-top100" tabindex="0">
+                  </button>
+                </div>
+                <div class="col-music-next none-border">
+                  <img src="images/top100-trung-q.jpg" alt="" class="img-music-top100">
+                  <div class="name-music-next">
+                    <div>Top 100 Music Best Chinese</div>
+                  </div>
+                  <button class="btn-play btn-play-top100" tabindex="0">
+                  </button>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+
+
+        </div>
+        <footer class="page-footer">
+          <div class="contailner">
+            <ul class="navigation-footer uppercase">
+              <li class="column">
+                <h3>About us</h3>
+                <ul class="column-item">
+                  <li><a href="#">About MYMUSIC</a></li>
+                  <li><a href="#">For the Record</a></li>
+                  <li><a href="#">Friendly Links</a></li>
+                </ul>
+              </li>
+              <li class="column">
+                <h3>Community</h3>
+                <ul class="column-item">
+                  <li><a href="#">For Artists</a></li>
+                  <li><a href="#">The Developers</a></li>
+                  <li><a href="#">Brand</a></li>
+                  <li><a href="#">The Supplier</a></li>
+                </ul>
+              </li>
+              <li class="column">
+                <h3>Social connection</h3>
+                <ul class="column-item">
+                  <li>
+                    <img src="images/facebook-24.png" alt="Facebook">
+                    <a href="#"><span>Facebook</span></a>
+                  </li>
+                  <li>
+                    <img src="images/google_plus-24.png" alt="Google+">
+                    <a href="#"><span>Google+</span></a>
+                  </li>
+                  <li>
+                    <img src="images/youtube-24.png" alt="Youtube">
+                    <a href="#"><span>Youtube</span></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-design">
+            <div class="contailner">
+              <div class="border-copyright-design">
+                <p class="txt-copyright">© 2019 MYMUSIC AB</p>              
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script src="js/myjs.js"></script>
+      <script src="js/playing-music.js"></script>
+</body>
+
+</html>
